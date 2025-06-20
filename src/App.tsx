@@ -1,25 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 // Lucide React Icons for a modern UI
-import { 
-    SendHorizontal, 
-    SlidersHorizontal,
-    PlusCircle, 
-    X, 
-    LoaderCircle,
-    StopCircle,
-    Sparkles,
-    Trash2,
-    Paperclip,
-    XCircle,
-    Copy,
-    RefreshCcw,
-    ArrowDownCircle,
-    Mic,
-    Pencil,
-    MessageSquareReply,
-    AlertTriangle
-} from 'lucide-react';
+import { SendHorizontal, SlidersHorizontal, PlusCircle, X, UserCircle as LoaderCircle, StopCircle, Sparkles, Trash2, Paperclip, XCircle, Copy, RefreshCcw, ArrowDownCircle, Mic, Pencil, MessageSquareReply, AlertTriangle } from 'lucide-react';
 
 // --- Constants ---
 const DEFAULT_MODES = [
